@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chronicles of Christian</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            padding: 2em;
+        }
+        .about, .blog-posts, .contact {
+            margin-bottom: 2em;
+        }
+        h1, h2 {
+            color: #4CAF50;
+        }
+        p {
+            color: #555;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer p {
+            margin: 0;
+        }
+        @media (max-width: 600px) {
+            nav a {
+                float: none;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Chronicles of Christian</h1>
+        <p>Sharing my life experiences, faith, and passions</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#blog-posts">Blog Posts</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>Hi! I'm Christian Martins. Originally from Westfield, Massachusetts, I moved to Virginia to be with my girlfriend, who is now my wife, Ivelyss. In 2017, we moved to Myrtle Beach, where we've been building our life together.</p>
+            <p>We have three wonderful children: Alayah, who will be 10 in July; Nehemiah, who is 8 and will be 9 in January; and Malachi, who is 5 and will be 6 in January. I have an interesting story about Malachi's birth that I will share in my blog.</p>
+            <p>Moving away from friends and family was definitely a challenge. We still struggle with some aspects, like finding support for the kids, having date nights, and managing when we both get sick. We had to adapt quickly and lean on each other for strength, facing many hardships along the way. This journey has led us to a place of independence.</p>
+            <p>I enjoy bike riding, spending time with my wife and kids, going to the beach or the movies, ordering big water slides for the backyard, and playing pickleball and basketball. My interests include faith, and I am a Christian, often exploring various Bible-related subjects. I used to be a "Google head," but now I am a ChatGPT fanatic, enjoying looking up information and digging deep to find answers.</p>
+        </section>
+        <section id="blog-posts" class="blog-posts">
+            <h2>Blog Posts</h2>
+            <p>Coming soon...</p>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <p>You can reach me via email at <a href="mailto:mrchristianmartins5@gmail.com">mrchristianmartins5@gmail.com</a></p>
+            <p>Follow me on social media:</p>
+            <p>
+                <a href="https://www.instagram.com">Instagram</a> |
+                <a href="https://www.facebook.com">Facebook</a>
+            </p>
+        </section>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Christian Martins. All rights reserved.</p>
+    </div>
+</body>
+</html>
